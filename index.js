@@ -33,8 +33,8 @@ async function init() {
   token = totp.generate();
   console.log(token);
   console.log("Wait 5 seconds...");
-  console.log("5 seconds have passed");
   await delay(5000);
+  console.log("5 seconds have passed");
   token = totp.generate();
   console.log(token);
 }
